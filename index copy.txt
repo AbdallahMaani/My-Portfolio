@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Abdallah Maani</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Abdallah Maani</a>
+        <nav class="navigation">
+            <a href="#Home">Home</a>
+            <a href="#Work">Work</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="Main" id="Home">
+      <div>
+        <video autoplay loop muted plays-inline class="background-clip" src="images/VN20230919_154923.mp4" type="video/mp4"></video>
+        <h1>Hello !</h1>
+        <h2>My name is Abdallah Maani<br><span>Software Engneering</span></h2>
+        <h3>A full stack Developer</h3>
+        <a href="#Work" class="Main-btn">View My Work</a>
+        
+        <div class="Social-Icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a>
+            <a href="https://www.instagram.com/abdallah.maani/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
+            <a href="https://twitter.com/abdallah_maani1" target="_blank"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a>
+            <br><br><br>
+            <div class="slider-navigation">
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+            </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="cards" id="Work">
+
+         <h2 class="title">Services</h2>
+         <div>
+         </div>
+         <div class="content">
+         <div class="card">
+         <div class="icon">
+         <i class="fa-brands fa-app-store"></i>
+         </div>
+         <div class="info">
+         <h3>ios Developer</h3>
+         <p>Building applications for iPhone and iPad devices</p>
+         </div>
+         </div>
+
+         <div class="card">
+            <div class="icon">
+            <i class="fa-brands fa-android"></i>
+            </div>
+            <div class="info">
+            <h3>Android Developer</h3>
+            <p>Building applications for Android phones and tablets</p>
+                   </div>
+                 </div>
+
+          <div class="card">
+            <div class="icon">
+            <i class="fa-brands fa-windows"></i>
+            </div>
+            <div class="info">
+            <h3>Desktop Applications Developer</h3>
+            <p>Building Applications for windows</p>
+                   </div>
+                 </div>
+
+          <div class="card">
+            <div class="icon">
+             <i class="fa-brands fa-apple"></i> 
+             </div>
+            <div class="info">
+            <h3>MacOS Applications Developer</h3>
+            <p>Building application for MacOs</p>
+                   </div>
+                 </div>
+
+                 <div class="card">
+                    <div class="icon">
+                    <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="info">
+                    <h3>Web Designer</h3>
+                    <p>Building websites</p>
+                           </div>
+                         </div>
+          </div>
+        </section>
+
+    <section class="Contact" id="Contact">
+
+            <h2 class="title">Let's talk togther</h2>
+
+            <div class="content">
+            <div class="card">
+            
+            <div class="info">
+            <a href="https://play.google.com/store/games?pli=1" target="_blank">
+                <div class="icon">
+                    <i class="fa-brands fa-google-play"></i>  
+                   </div>
+
+                   <h3>Downlaod AM App</h3>
+                   <p>Download My app from PlayStore</p>
+                   </a>
+
+           </div>
+           </div>
+    
+           <div class="card">
+            
+            <div class="info">
+            <a href="mailto:abdallahmaani1@icloud.com">
+                <div class="icon">
+                <i class="fa-solid fa-envelope"></i> 
+                </div>
+
+                <h3>Email</h3>
+                <p>abdallahmaani1@icloud.com</p>
+                </a>
+
+                 </div>
+                 </div>
+
+            <div class="card">
+                
+                <div class="info">
+                <a href="https://apps.apple.com/us/app/facebook/id284882215" target="_blank">
+                    <div class="icon">
+                    <i class="fa-brands fa-app-store-ios"></i>
+                               </div>
+
+                               <h3>Downlaod AM App</h3>
+                               <p>Download My app from AppStore</p>
+                               </a>
+
+                       </div>
+                    </div>
+
+                     
+                     <div class="card">
+                        <div class="info">
+
+                        <a href="https://www.messenger.com/desktop/launch/?funnel_session_id=60c57fcc-d348-44da-987e-83985edac522&origin=MSGR" target="_blank">
+                            <div class="icon">
+                            <i class="fa-brands fa-facebook-messenger"></i>  
+                            </div>
+
+                          <h3>Messenger</h3>
+                          <p>Abdallah Maani</p>
+                          </a>
+
+                          </div>
+                          </div>
+
+                          <div class="card">
+                     
+                            <div class="info">
+                            <a href="tel:+962799140658">
+                               <div class="icon">
+                               <i class="fa-solid fa-phone-volume"></i>
+                               </div>
+       
+                               <h3>Phone</h3>
+                               <p>Call Now</p>
+                               </a>
+       
+                            </div>
+                            </div>
+
+                        <div class="card">
+                            <div class="info">
+                            
+                            <a href="https://web.whatsapp.com/" target="_blank">
+                                <div class="icon">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <h3>WhatsApp</h3>
+                            <p>Start a conversation</p>
+                            </a>
+                            
+                            </div>
+                            </div>
+
+                         </section>
+
+                     <footer class="footer">
+                        <p class="footer-title">All copyrights @ reseved<span> Abdallah Maani</span></p>
+                        <div class="Social-Icons">
+                            <a href="https://www.facebook.com/profile.php?id=100015563375404" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                            <a href="https://www.instagram.com/abdallah.maani/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                            <a href="https://twitter.com/abdallah_maani1" target="_blank"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a>
+                        </div>
+                     </footer>
+</body>
+</html>

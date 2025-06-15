@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Abdallah Maani</title>
+</head>
+<body>
+
+    <header style="background-color: rgba(73, 48, 89, 0.3);">
+        <a style="background-color: rgba(73, 48, 89, 0.3);" href="#" class="logo">Website Service <i style="font-size: 1.2em; color:white;"  class="fa-solid fa-globe"></i> </a>
+        <nav style="animation: wipeInFromRight 1.1s ease-in-out" class="navigation">
+            <a href="index.html#Services"> <-- Back</a>
+            <a href="#Request">Request</a>
+            <a href="#Description">Description</a>
+        </nav>
+
+    </header>
+
+    <div class="gif6">
+    <section style="background-color: rgba(73, 48, 89, 0.05);" class="Request" id="Request">
+
+        <div style="background-color: rgba(73, 48, 89, 0.3);" class="wrapper">
+            <div class="form-box login">
+
+                <span class="icon-close">
+                <i class="fa-solid fa-x"></i>
+            </span>
+        </span>
+
+            <h2>Request</h2>
+    
+            <form action="https://formsubmit.co/abdallahmaani21@gmail.com" method="POST">
+
+                <div class="input-box">
+                    <input type="text" id="name" required placeholder="John Sam"/>
+                    
+                    <span class="icon">
+                        <i class="fa-regular fa-user"></i>
+                     </span>
+        
+                    <label for="name">Name</label>
+                    </div>
+        
+
+                    <div class="input-box">
+                        <input type="email" id="email" required placeholder="xxx@gmail.com"/>
+                        
+                        <span class="icon">
+                        <i class="fa-regular fa-envelope"></i>
+                        </span>
+            
+                        <label for="email">Email</label>
+                        </div>
+            
+
+                        <div class="input-box">
+                            <input type="tel" id="phone" required pattern="[0-9]{10}" placeholder="079-123-4567"/>
+                            
+                            <span class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                            </span>
+                
+                            <label for="phone">Phone</label>
+                        </div>
+                
+                            <div class="input-box">
+                                <input type="text" id="address" required placeholder="Jordan - Amman"/>
+                                <span class="icon">
+                                 <i class="fa-solid fa-location-dot"></i>
+                                </span>
+                                <label for="address">Address</label>
+                                </div>
+
+                                <div class="input-box">
+                                    <input type="date" id="date" required>
+                                    <span class="icon">
+                                    </span>
+                                    <label for="date">Date</label>
+                                    </div>
+
+                                <div class="remember-forgot" >
+                                    <label><input type="checkbox" name="checkbox1" required> Confirm the request</label></div>
+                                    <br>
+
+                                <nav class="navigationsubmit">
+                                    <button class="invisible-btn" onclick="window.history.back()"><span><a>Cancel</a></span></button>
+                                    <button class="invisible-btn" type="reset"><span2><a>Reset</a></span2></button>
+                                    <button class="invisible-btn" onclick="show()" type="submit"><a>Submit</a></button>
+                                </nav>           
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="Description">
+        <section style="background-color: rgba(150, 29, 206, 0.12); min-height: 60vh; padding-bottom: 3em;" >
+        <h3 class="Desc-h3">Write a description of your request :</h3>
+
+        <textarea id="Description" placeholder="Your Description..." required></textarea>
+</form>
+
+</div>
+   </section>
+
+   <footer class="footer">
+    <p class="footer-title">All copyrights &copy; reseved 2023<span> Abdallah Maani</span></p>
+    <div class="Social-Icons">
+        <a href="https://www.facebook.com/profile.php?id=100015563375404" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a>
+        <a href="https://www.instagram.com/abdallah.maani/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
+        <a href="https://twitter.com/abdallah_maani1" target="_blank"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a>
+    </div>
+ </footer>
+
+   <script src="alertMessage.js"></script>
+</body>
+</html>
